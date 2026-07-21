@@ -1,5 +1,7 @@
 async function main()
 {
+    const   rdfUrl = "https://Fondation-SCP.github.io/tags-selector/resources/ontology/structure-tags.rdf"
+
     const   engine = new Comunica.QueryEngine();
 
     const   query = `
@@ -13,7 +15,7 @@ async function main()
 
     const   result = await engine.queryBindings(
         query,
-        { sources: ["https://pcapurro.github.io/tags-selector/resources/ontology/structure-tags.rdf"] }
+        { sources: [rdfUrl] }
     );
 
     result.on("data", (binding) => {
