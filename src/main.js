@@ -11,12 +11,12 @@ async function getRoots()
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-        SELECT ?classe
+        SELECT ?element
         WHERE {
-            ?classe a owl:Class .
+            ?element a owl:Class .
 
             FILTER NOT EXISTS {
-                ?classe rdfs:subClassOf ?parent .
+                ?element rdfs:subClassOf ?parent .
             }
         }
         `;
@@ -35,9 +35,29 @@ async function getAll()
     const   query = `
         PREFIX owl: <http://www.w3.org/2002/07/owl#>
 
-        SELECT ?classe
+        SELECT ?element
         WHERE {
-            ?classe a owl:Class .
+            ?element a owl:Class .
+        }
+        `;
+
+    const   result = await engine.queryBindings(
+        query,
+        { sources: [rdfUrl] }
+    );
+
+    return await result.toArray();
+}
+
+// Renvoie les sous tags de premier ordre à partir d'un tag
+async function getSubTag(tagUrl)
+{
+    const   query = `
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+        SELECT ?element
+        WHERE {
+            ?element rdfs:subClassOf <${tagUrl}> .
         }
         `;
 
@@ -54,7 +74,7 @@ function printList(tags)
 {
     for (const element of tags)
     {
-        const   uri = element.get("classe").value;
+        const   uri = element.get("element").value;
         const   name = uri.split("#").pop();
 
         console.log("> '" + name + "'");
@@ -65,7 +85,10 @@ function printList(tags)
 
 async function main()
 {
-    printList(await getRoots());
+    // Récupère puis affiche tous les sous tags du tag "informatique"
+    printList(await getSubTag("http://www.semanticweb.org/ontologies/2025/6/tags#~informatique"));
+
+    // ...
 }
 
 main();
