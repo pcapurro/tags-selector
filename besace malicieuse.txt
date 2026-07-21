@@ -105,12 +105,12 @@ Tag de série -> série
 
 Tag de concours -> concours mais que les vrais concours
 
-Comment crééer un tag univers :
+Comment créer un tag univers :
 
 1) supprimer les articles sauf si nécessaire au sens
 
 2) D'abord, créer le tag en toutes lettres de tous les mots sauf articles. S'il est trop long ou qu'un acronyme est plus courant, préférer l'acronyme
 
-3) Préferer préfixer le tag pour le donner en entier : site-aleph, dr-holt, concours-14ansfr
+3) Préférer préfixer le tag pour le donner en entier : site-aleph, dr-holt, concours-14ansfr
 
 AUTRE : Passer les transitions en offset au lieu de pages à côté
