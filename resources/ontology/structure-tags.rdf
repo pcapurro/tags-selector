@@ -87,12 +87,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#centre -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#centre"/>
-    
-
-
     <!-- http://www.semanticweb.org/ontologies/2025/6/tags#classe-alternative -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#classe-alternative">
@@ -113,6 +107,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#collaboration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#original"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#concours"/>
     </owl:Class>
     
 
@@ -321,7 +316,11 @@
 
     <!-- http://www.semanticweb.org/ontologies/2025/6/tags#index -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#index"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#index">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#méta"/>
+        <rdfs:comment>Tag qualificatif et pas de nature</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -446,6 +445,8 @@
     <!-- http://www.semanticweb.org/ontologies/2025/6/tags#original -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#original">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#concours"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
         <rdfs:comment>Vraiment souhaitable de l&apos;appeler comme ça plutôt que `fr` alors que ça s&apos;appliquera aussi à des pages genre guide ou page de concours officiel ?</rdfs:comment>
     </owl:Class>
