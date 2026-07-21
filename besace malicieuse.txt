@@ -1,0 +1,116 @@
+liste des tags portés disparus
+classes admin et confi
+Delete sous -3 : fr + article
+indéterminé -> incolore
+SCP-J -> Parodie de rapport SCP
+DIFFERENT d'un SCP humouristique, qui peut être premdeg et marrant
+marqueur de contenu : cont_
+audio
+adulte
+épilepsie
+avert_audio
+avert_adulte
+avert_epilepsie
+coécrit poubelle
+Tous les guides non validés deviennent des essais, à repasser sur tous les guides traduits
+patrimoine poubelle
+alimentaire -> nourriture
+amorphe -> protéiforme
+appareil poubelle
+arborescent -> arbre
+argile poubelle
+arthropode poubelle
+avenir -> futur
+aviaire -> oiseau
+bibliothécaire -> bibliothèque (normal)
+cactaceae -> cactus
+camélidé -> poubelle
+_dérog-tag ajouté
+_dérog-thème ajouté
+carte -> cartographie
+chélonien poubelle
+chronographe poubelle
+clé n'existe plus en anglais
+conteneur poubelle
+cristallin -> cristal
+crustacé ajouté
+cube poubelle
+curatif -> soin (à appliquer)
+dépendance -> addictif
+devise -> monnaie
+dinosaurien -> dinosaure
+document -> document-texte
+ectoentropique NETTOYER LE TAG
+esprit -> effet-mental
+essocinétique -> ontolygésique
+extra-dimensionnel -> extradimensionnel
+herbivore ajouté
+historique poubelle (devient un genre)
+ordinateur poubelle, dans informatique (bien retag notamment artefact)
+instrument poubelle
+intangible revoir définition
+lépidoptère -> papillon
+lepus -> lapin
+lune def à revoir
+made-in-foundation -> made-in-fondation
+méta -> devient un tag de genre 
+métamorphe -> transformation (+ définition)
+mobilier -> meuble
+mobile poubelle
+muridé -> rat
+neutralisé devenu une classe
+non-confiné devenu une classe
+observable -> observationnel
+ophidien -> serpent
+parasitaire -> parasite
+performance -> spectacle
+photographique -> photographie
+piscus -> poisson
+(sugg : carnivore pour prédateur)
+(sugg : cadavre pour réanimation)
+religieux -> religion
+reptilien -> reptile
+sciuridé poubelle
+squelettique -> squelette 
+taillé poubelle
+thermique -> température
+thermodynamique -> poubelle 
+ursidé -> ours
+vedette ?????? (poubelle)
+vêtements -> vêtement
+vibration poubelle
+(sugg : informatique ou biologique pour virus)
+vulpes poubelle
+
+ATENTION <500 nulach -> moins-500
+
+
+Pour le contenu original :
+
+Tag d'attribut -> c'est le staff qui décide 
+
+Tag de GDI -> GDI majeur 
+
+Tag de Site -> Site dans la liste (discrétion du staff)
+
+Tag de lieu non site -> 5 écrits 3 auteurs + approbation du staff
+
+Tag de personnage -> 5 écrits 3 auteurs + approbation du staff
+
+Tag de département -> 5 écrits 3 auteurs + approbation du staff
+
+Tag de canon -> canon
+
+Tag de série -> série
+
+Tag de concours -> concours mais que les vrais concours
+
+Comment crééer un tag univers :
+
+1) supprimer les articles sauf si nécessaire au sens
+
+2) D'abord, créer le tag en toutes lettres de tous les mots sauf articles. S'il est trop long ou qu'un acronyme est plus courant, préférer l'acronyme
+
+3) Préferer préfixer le tag pour le donner en entier : site-aleph, dr-holt, concours-14ansfr
+
+AUTRE : Passer les transitions en offset au lieu de pages à côté
