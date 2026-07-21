@@ -1,0 +1,2303 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2025/6/tags/"
+     xml:base="http://www.semanticweb.org/ontologies/2025/6/tags/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#_dérog-tag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#_dérog-tag"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#_dérog-thème -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#_dérog-thème"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#_pas-de-genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#_pas-de-genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#admin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#admin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#système"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#annexe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#annexe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#article -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#auteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#auteur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#communautaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#blanc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#blanc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#bleu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#bleu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#centre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#centre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#classe-alternative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#classe-alternative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#cn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#cn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#collaboration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#collaboration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#original"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#collaboration-int -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#collaboration-int">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#original"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#communautaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#communautaire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#méta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#concours -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#concours">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#communautaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#cs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#cs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#de -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#de">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#doc-externe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#doc-externe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#doc-interne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#doc-interne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#document">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#nouvelle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#dossier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#dossier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#drame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#drame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#en -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#en">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#es -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#es">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#essai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#essai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#euclide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#euclide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#expliqué -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#expliqué">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#fanart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#fanart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#fantasy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#fantasy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#fragment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#fragment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#système"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#galerie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#galerie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#communautaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#gazette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#gazette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#communautaire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#guide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#guide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#méta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#histoire-et-politique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#histoire-et-politique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#horreur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#horreur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#humour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#humour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#incolore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#incolore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#index -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#index"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#int -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#int">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#introduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#introduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#it -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#it">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#jaune -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#jaune">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#jp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#jp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#keter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#keter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#ko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#ko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#modèle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#modèle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#système"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#méta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#méta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#métanarration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#métanarration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#neutralisé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#neutralisé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#noir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#noir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#non-confiné -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#non-confiné">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#nouvelle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#nouvelle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#orange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#orange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#original -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#original">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+        <rdfs:comment>Vraiment souhaitable de l&apos;appeler comme ça plutôt que `fr` alors que ça s&apos;appliquera aussi à des pages genre guide ou page de concours officiel ?</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#pl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#pl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#polar-et-action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#polar-et-action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#portail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#portail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#méta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#poésie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#poésie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#proposition-001 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#proposition-001">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#protocole-dcd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#protocole-dcd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#pt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#pt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#rouge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#rouge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#ru -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#ru">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#science-fiction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#science-fiction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#article"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#scp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#scp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#scp-j -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#scp-j">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#secret -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#secret">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#système"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#dossier"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-aleph -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-aleph">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-ayin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-ayin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-beth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-beth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-daleth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-daleth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-ghimel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-ghimel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-he -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-he">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-kybian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-kybian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-lamedh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-lamedh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-mayim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-mayim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-mem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-mem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-samech -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-samech">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-shell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-shell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-tav -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-tav">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-yod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-yod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#site-zayin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#site-zayin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#soleil-couche-scp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#soleil-couche-scp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#système -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#système">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#méta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#sûr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#sûr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#th -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#th">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#thaumiel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#thaumiel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#thème -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#thème">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#système"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#torsion-de-format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#torsion-de-format">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#traduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#ua -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#ua">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#vert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#vert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#scp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#vn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#vn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#zh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#zh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#traduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#!adulte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#!adulte"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#!épilepsie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#!épilepsie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#&amp;audio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#&amp;audio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~adaptatif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~adaptatif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~addictif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~addictif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~animal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~animal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~antimémétique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~antimémétique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~apoïde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~apoïde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~insecte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~aquatique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~aquatique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~arachnide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~arachnide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~invertébré"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~arbre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~arbre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~plante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~arme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~arme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~art -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~art">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~artefact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~artefact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~auditif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~auditif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~automate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~automate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~autonome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~autonome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~autoréparant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~autoréparant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~autorépliquant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~autorépliquant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~aérien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~aérien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~bibliothèque -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~bibliothèque">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~bijou -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~bijou">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~biologique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~biologique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~organique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~bois -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~bois">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~boucle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~boucle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~bovin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~bovin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~bâtiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~bâtiment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~cactus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~cactus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~plante"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~cadavre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~cadavre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~canin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~canin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~carnivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~carnivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~cartographie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~cartographie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~cervidé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~cervidé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~chimique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~chimique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~classe-k -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~classe-k">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~clé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~clé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~compulsion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~compulsion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~concept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~concept">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~connaissance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~connaissance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~conscience-collective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~conscience-collective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~contagieux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~contagieux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~corrosif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~corrosif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~crustacé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~crustacé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~invertébré"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~céphalopode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~céphalopode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~cétacé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~cétacé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~danger-bio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~danger-bio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~danger-cognitif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~danger-cognitif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~danger-info -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~danger-info">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~dentaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~dentaire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~digestion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~digestion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~dinosaure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~dinosaure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~document-texte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~document-texte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~inscription"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~ectoentropique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~ectoentropique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~effet-mental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~effet-mental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~elasmobranchii -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~elasmobranchii">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~empathique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~empathique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~enregistrement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~enregistrement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~entropique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~entropique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~espace-temps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~espace-temps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~espèce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~espèce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~essaim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~essaim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~extradimensionnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~extradimensionnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~extraterrestre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~extraterrestre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~extrémité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~extrémité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~feu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~feu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~fongique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~fongique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~fourmi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~fourmi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~insecte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~futur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~futur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~temporel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~fécal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~fécal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~félin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~félin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~gazeux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~gazeux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~gravité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~gravité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~gravure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~gravure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~inscription"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~grenouille -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~grenouille">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~gustatif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~gustatif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~génétique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~génétique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~géologique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~géologique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~hallucination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~hallucination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~herbivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~herbivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~horlogerie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~horlogerie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~hostile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~hostile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~humanoïde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~humanoïde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~inamovible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~inamovible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~indestructible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~indestructible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~informatique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~informatique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~inscription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~inscription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~insecte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~insecte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~invertébré"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~intangible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~intangible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~internet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~internet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~informatique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~invertébré -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~invertébré">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~jeu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~jeu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~jouet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~jouet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~langage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~langage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~lapin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~lapin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~rongeur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~lieu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~lieu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~liquide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~liquide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~lumière -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~lumière">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~lune -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~lune">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~made-in-fondation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~made-in-fondation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~magnétique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~magnétique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~mathématique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~mathématique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~meuble -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~meuble">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~microscopique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~microscopique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~militaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~militaire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~mimétique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~mimétique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~miniature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~miniature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~monnaie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~monnaie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~musical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~musical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~mécanique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~mécanique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~média -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~média">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~médical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~médical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~mémoire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~mémoire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~mémétique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~mémétique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~métallique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~métallique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~météorologique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~météorologique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~narratif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~narratif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~neurologique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~neurologique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~nocturne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~nocturne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~nourriture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~nourriture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~observationnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~observationnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~oculaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~oculaire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~oiseau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~oiseau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~olfactif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~olfactif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~ombre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~ombre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~omnivore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~omnivore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~ontolygésique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~ontolygésique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~ordinateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~ordinateur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~informatique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~organique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~organique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~ours -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~ours">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~outil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~outil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~ovin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~ovin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~papillon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~papillon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~insecte"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~paradoxe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~paradoxe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~parasite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~parasite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~photographie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~photographie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~physique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~physique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~pierre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~pierre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~plante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~plante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~planète -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~planète">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~poisson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~poisson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~portail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~portail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~possession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~possession">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~probabilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~probabilité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~protéiforme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~protéiforme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~prédateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~prédateur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~prédictif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~prédictif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~connaissance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~radioactif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~radioactif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~religion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~religion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~reproduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~reproduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~reptile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~reptile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~rituel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~rituel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~rongeur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~rongeur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~réanimation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~réanimation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~sapiens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~sapiens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~satellite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~satellite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~sculpture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~sculpture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~sensoriel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~sensoriel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~serpent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~serpent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~sexuel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~sexuel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~singe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~singe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~soleil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~soleil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~sommeil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~sommeil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~son -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~son">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~souterrain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~souterrain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~spectacle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~spectacle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~sport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~sport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~squelette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~squelette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~statue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~statue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~sculpture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~tactile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~tactile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~temporel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~temporel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~température -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~température">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~toxique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~toxique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~transfiguration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~transfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~transformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~transmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~transmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~télékinétique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~télékinétique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~télépathique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~télépathique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~téléportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~téléportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~ville -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~ville">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~lieu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~virus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~virus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~visuel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~visuel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~vivant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~vivant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~biologique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~véhicule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~véhicule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~échange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~échange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~électrique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~électrique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~électromagnétique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~électromagnétique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~électronique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~électronique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#document"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#~équin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#~équin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2025/6/tags#~animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2025/6/tags#¬univers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2025/6/tags#¬univers">
+        <rdfs:comment>Classe temporaire pour rangement pendant la phase de travail, à voir ce qu&apos;on en fait</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
